@@ -1,5 +1,5 @@
 Databricks is often described as "Spark as a Service," but it is much more than just a hosted version of Apache Spark. It provides a highly optimized runtime and a suite of management tools that handle the "heavy lifting" of cluster configuration, tuning, and scaling.
-Here are the key features that allow Databricks to use Spark more efficiently than a standard manual setup:
+Here are the key features that allow Databricks to use Spark more efficiently than a standard manual setup: 
 1. Photon: The Vectorized Query Engine
 While standard Spark runs on the Java Virtual Machine (JVM), Databricks introduced Photon, a next-generation execution engine written in C++.
  * Vectorized Execution: Processes data in batches (columns) rather than row-by-row, which is significantly faster for modern CPUs.
